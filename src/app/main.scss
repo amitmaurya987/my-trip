@@ -1,0 +1,96 @@
+:root,
+[data-bs-theme=light]{
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-black: #000;
+  --bs-white: #fff;
+}
+
+[data-bs-theme=dark]{
+  color-scheme: dark;
+  --dark:#000;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+:root{
+  font-size: 62.5%;
+}
+body{
+  background-color: #fff;
+  color: #000;
+font-size: 1.6rem;
+}
+
+
+.flex{
+  display: flex;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.justify-center{
+  justify-content: center;
+}
+.justify-end{
+  justify-content: end;
+}
+.align-center{
+  align-items: center;
+}
+.align-end{
+  align-items: flex-end;
+}
+.align-self-center{
+  align-self: center;
+}
+.align-self-end{
+  align-self: flex-end;
+}
+.align-self-start{
+  align-self: flex-start;
+}
+.gap-4{
+  gap: 4px;
+}
+.gap-8{
+  gap: 8px;
+}
+.gap-10{
+  gap: 10px;
+}
+.gap-20{
+  gap: 20px;
+}
+
+@media (min-width: 576px) {
+  .float-sm-start {
+    float: left !important;
+  }
+}
+@media (min-width: 768px) {
+  .float-md-start {
+    float: left !important;
+  }
+}
+@media (min-width: 992px) {
+  .float-lg-start {
+    float: left !important;
+  }
+}
